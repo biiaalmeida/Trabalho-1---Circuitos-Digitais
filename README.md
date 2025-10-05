@@ -176,7 +176,7 @@ Um sistema de ar condicionado deverá atuar sob as seguintes premissas:
 4.  Umidade relativa do ar acima de 85% **E** temperatura acima de 21°C **E** estar entre 9:00h e 17:00h.
 
 Caso contrário, o sistema de ar condicionado deverá permanecer desligado.
-### Variáveis de Entrada
+### I. Variáveis de Entrada
 
 Foram definidas as seguintes variáveis de entrada:
 
@@ -189,22 +189,7 @@ Foram definidas as seguintes variáveis de entrada:
 
 A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) + (U \cdot T \cdot F) + (U \cdot T \cdot H)$$
 
-### Simplificação da Expressão (Mapa de Karnaugh)
-
-| F, U \ T, H | 00 (T'H') | 01 (T'H) | 11 (TH) | 10 (TH') |
-| :---------: | :-------: | :------: | :-----: | :------: |
-| **00 (F'U')**   | 0         | 0        | 0       | 0        |
-| **01 (F'U)**    | 0         | **1** | **1** | 0        |
-| **11 (FU)**     | 0         | **1** | **1** | **1** |
-| **10 (FU')**    | 0         | 0        | **1** | **1** |
-
-### Expressão Lógica Simplificada e implementação do circuito lógico
-
-$$S = \mathbf{TH + FU}$$
- 
-![alt text](Image-Q4.png)
-
-### Tabela Verdade
+### II. Tabela Verdade
 | F | U | T | H | S |
 | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 0 | 0 |
@@ -223,3 +208,20 @@ $$S = \mathbf{TH + FU}$$
 | 1 | 1 | 0 | 1 | **1** |
 | 1 | 1 | 1 | 0 | **1** |
 | 1 | 1 | 1 | 1 | **1** |
+
+### III. Simplificação da Expressão (Mapa de Karnaugh)
+
+| F, U \ T, H | 00 (T'H') | 01 (T'H) | 11 (TH) | 10 (TH') |
+| :---------: | :-------: | :------: | :-----: | :------: |
+| **00 (F'U')**   | 0         | 0        | 0       | 0        |
+| **01 (F'U)**    | 0         | **1** | **1** | 0        |
+| **11 (FU)**     | 0         | **1** | **1** | **1** |
+| **10 (FU')**    | 0         | 0        | **1** | **1** |
+
+### IV. Expressão Lógica Simplificada e implementação do circuito lógico
+
+$$S = \mathbf{TH + FU}$$
+ 
+![alt text](Image-Q4.png)
+
+
