@@ -183,7 +183,7 @@ Foram definidas as seguintes variáveis de entrada:
 
 | Variável | Descrição | Complemento |
 | :---: | :--- | :--- |
-| **H** | Estar entre 9:00h e 17:00h | $\bar{H} = $ Não estar entre 9:00h e 17:00h |
+| **H** | Estar entre 9:00h e 17:00h | $∖bar{H}$ Não estar entre 9:00h e 17:00h |
 | **U** | Umidade relativa do ar acima de 85% | $\bar{U} = $ Umidade relativa do ar abaixo de 85% |
 | **T** | Temperatura acima de 21°C | $\bar{T} = $ Temperatura abaixo de 21°C |
 | **F** | Final de semana | $\bar{F} = $ Dia da semana |
