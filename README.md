@@ -166,17 +166,26 @@ Expressão simplificada: 'A⋅B'+B'⋅D'+A⋅C⋅D'
 Diagrama de circuito correspondente:  
 ![alt text](image.png)
 
-#Problema 04
+# Problema 04
+## Descrição do Problema
+
 Um sistema de ar condicionado deverá atuar sob as seguintes premissas:
- Temperatura acima de 21°C e estar entre 9:00h e 17:00h, ou;
- Ser fim de semana com umidade relativa do ar acima de 85%, ou;
- Umidade relativa do ar acima de 85%, temperatura acima de 21°C e ser final de semana, ou;
- Umidade relativa do ar acima de 85%, temperatura acima de 21°C e estar entre 9:00h e 17:00h.
-Caso contrário, o sistema de ar condicionado deverá permanecer desligado. Considere as seguintes
-variáveis de entrada:
- H = Estar entre 9:00h e 17:00h, H =N˜ao estar entre 9:00h e 17:00h;
- U = Umidade relativa do ar acima de 85%, U =Umidade relativa do ar abaixo de 85%;
- T = Temperatura acima de 21°C, T =Temperatura abaixo de 21°C;
- F = Final de semana, F = Dia da semana.
-Utilizando o Logisim, obtenha a express˜ao l´ogica simplificada para a saída A (Ativar o sistema de
-ar condicionado) e o diagrama de circuito correspondente.
+
+1.  Temperatura acima de 21°C **E** estar entre 9:00h e 17:00h, **OU**
+2.  Ser final de semana **E** com umidade relativa do ar acima de 85%, **OU**
+3.  Umidade relativa do ar acima de 85% **E** temperatura acima de 21°C **E** ser final de semana, **OU**
+4.  Umidade relativa do ar acima de 85% **E** temperatura acima de 21°C **E** estar entre 9:00h e 17:00h.
+
+Caso contrário, o sistema de ar condicionado deverá permanecer desligado.
+## Variáveis de Entrada
+
+Foram definidas as seguintes variáveis de entrada:
+
+| Variável | Descrição | Complemento |
+| :---: | :--- | :--- |
+| **H** | Estar entre 9:00h e 17:00h | $\bar{H} = $ Não estar entre 9:00h e 17:00h |
+| **U** | Umidade relativa do ar acima de 85% | $\bar{U} = $ Umidade relativa do ar abaixo de 85% |
+| **T** | Temperatura acima de 21°C | $\bar{T} = $ Temperatura abaixo de 21°C |
+| **F** | Final de semana | $\bar{F} = $ Dia da semana |
+A expressão que modela as quatro premissas é:
+$$S = (T \cdot H) + (F \cdot U) + (U \cdot T \cdot F) + (U \cdot T \cdot H)$$
