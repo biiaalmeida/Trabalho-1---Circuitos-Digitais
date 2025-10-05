@@ -167,7 +167,6 @@ Diagrama de circuito correspondente:
 ![alt text](image.png)
 
 # Problema 04
-## Descrição do Problema
 
 Um sistema de ar condicionado deverá atuar sob as seguintes premissas:
 
@@ -185,7 +184,25 @@ Foram definidas as seguintes variáveis de entrada:
 | :---: | :--- | :--- |
 | **H** | Estar entre 9:00h e 17:00h | **H'** Não estar entre 9:00h e 17:00h |
 | **U** | Umidade relativa do ar acima de 85% | **U'** Umidade relativa do ar abaixo de 85% |
-| **T** | Temperatura acima de 21°C | | **T'** Temperatura abaixo de 21°C |
+| **T** | Temperatura acima de 21°C | **T'** Temperatura abaixo de 21°C |
 | **F** | Final de semana | **F'** Dia da semana |
 
 A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) + (U \cdot T \cdot F) + (U \cdot T \cdot H)$$
+
+## Simplificação da Expressão (Mapa de Karnaugh)
+
+\begin{array}{|c|c|c|c|c|}
+\cline{2-5}
+\multicolumn{1}{c|}{} & \multicolumn{4}{c|}{T, H} \\
+\cline{2-5}
+\multicolumn{1}{c|}{F, U} & 00 & 01 & 11 & 10 \\
+\hline
+00 & 0 & 0 & 0 & 0 \\
+\hline
+01 & 0 & \mathbf{1} & \mathbf{1} & 0 \\
+\hline
+11 & 0 & \mathbf{1} & \mathbf{1} & \mathbf{1} \\
+\hline
+10 & 0 & 0 & \mathbf{1} & \mathbf{1} \\
+\hline
+\end{array}
