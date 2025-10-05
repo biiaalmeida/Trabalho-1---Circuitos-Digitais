@@ -165,3 +165,18 @@ A questão nos dá a seguinte tabela da verdade:
 Expressão simplificada: 'A⋅B'+B'⋅D'+A⋅C⋅D'  
 Diagrama de circuito correspondente:  
 ![alt text](image.png)
+
+#Problema 04
+Um sistema de ar condicionado deverá atuar sob as seguintes premissas:
+ Temperatura acima de 21°C e estar entre 9:00h e 17:00h, ou;
+ Ser fim de semana com umidade relativa do ar acima de 85%, ou;
+ Umidade relativa do ar acima de 85%, temperatura acima de 21°C e ser final de semana, ou;
+ Umidade relativa do ar acima de 85%, temperatura acima de 21°C e estar entre 9:00h e 17:00h.
+Caso contrário, o sistema de ar condicionado deverá permanecer desligado. Considere as seguintes
+variáveis de entrada:
+ H = Estar entre 9:00h e 17:00h, H =N˜ao estar entre 9:00h e 17:00h;
+ U = Umidade relativa do ar acima de 85%, U =Umidade relativa do ar abaixo de 85%;
+ T = Temperatura acima de 21°C, T =Temperatura abaixo de 21°C;
+ F = Final de semana, F = Dia da semana.
+Utilizando o Logisim, obtenha a express˜ao l´ogica simplificada para a saída A (Ativar o sistema de
+ar condicionado) e o diagrama de circuito correspondente.
