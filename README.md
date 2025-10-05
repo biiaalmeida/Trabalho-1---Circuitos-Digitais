@@ -191,18 +191,9 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 ## Simplificação da Expressão (Mapa de Karnaugh)
 
-\begin{array}{|c|c|c|c|c|}
-\cline{2-5}
-\multicolumn{1}{c|}{} & \multicolumn{4}{c|}{T, H} \\
-\cline{2-5}
-\multicolumn{1}{c|}{F, U} & 00 & 01 & 11 & 10 \\
-\hline
-00 & 0 & 0 & 0 & 0 \\
-\hline
-01 & 0 & \mathbf{1} & \mathbf{1} & 0 \\
-\hline
-11 & 0 & \mathbf{1} & \mathbf{1} & \mathbf{1} \\
-\hline
-10 & 0 & 0 & \mathbf{1} & \mathbf{1} \\
-\hline
-\end{array}
+| F, U \ T, H | 00 (T'H') | 01 (T'H) | 11 (TH) | 10 (TH') |
+| :---------: | :-------: | :------: | :-----: | :------: |
+| 00 (F'U')   | 0         | 0        | 0       | 0        |
+| 01 (F'U)    | 0         | **1** | **1** | 0        |
+| 11 (FU)     | 0         | **1** | **1** | **1** |
+| 10 (FU')    | 0         | 0        | **1** | **1** |
