@@ -16,7 +16,7 @@ Projeto direcionado à disciplina de Circuitos Digitais, ministrada pelo Prof Dr
 # Problema 01 
 Implemente os seguintes circuitos com as expressões lógicas de saída dadas em Logisim, obtendo, como resposta, a tabela da verdade de cada circuito:  
 ## a) x = A'B + C
-
+### Tabela Verdade da Expressão: 
 | A | B | C | x |
 |:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 |
@@ -29,7 +29,7 @@ Implemente os seguintes circuitos com as expressões lógicas de saída dadas em
 | 1 | 1 | 1 | 1 |
 
 ## b) S = (A + B)(B + C')
-
+### Tabela Verdade da Expressão: 
 | A | B | C | S |
 |:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 |
@@ -42,7 +42,7 @@ Implemente os seguintes circuitos com as expressões lógicas de saída dadas em
 | 1 | 1 | 1 | 1 |
 
 ## c) x = ~(A B (C + D))
-
+### Tabela Verdade da Expressão: 
 | A | B | C | D | x |
 |:-:|:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 | 1 |
@@ -63,7 +63,7 @@ Implemente os seguintes circuitos com as expressões lógicas de saída dadas em
 | 1 | 1 | 1 | 1 | 0 |
 
 ## d) x = A ⊕ B ⊕ C
-
+### Tabela Verdade da Expressão: 
 | A | B | C | x |
 |:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 |
@@ -76,7 +76,7 @@ Implemente os seguintes circuitos com as expressões lógicas de saída dadas em
 | 1 | 1 | 1 | 1 |
 
 ## d) y = AB + BC + AC
-
+### Tabela Verdade da Expressão: 
 | A | B | C | y |
 |:-:|:-:|:-:|:-:|
 | 0 | 0 | 0 | 0 |
@@ -92,12 +92,12 @@ Implemente os seguintes circuitos com as expressões lógicas de saída dadas em
 Implemente os seguintes circuitos em Logisim, obtendo, como resposta, a expressão lógica simplificada e a tabela da verdade de cada circuito:  
 
 ## a) Circuito A
-Circuito dado:  
+### Circuito dado na questão:  
 ![alt text](image-2.png)
 
 
-Expressão Lógica Simplificada: ABC  
-Tabela verdade: 
+### I) Expressão Lógica Simplificada: ABC  
+### II) Tabela verdade: 
 
 | A | B | C | x |
 |:-:|:-:|:-:|:-:|
@@ -111,13 +111,12 @@ Tabela verdade:
 | 1 | 1 | 1 | 1 |
 
 ## b) Circuito B
-
-Circuito dado:  
+### Circuito dado na questão:  
 ![alt text](image-1.png)
 
 
-Expressão Lógica Simplificada: B'C' + A'B'C  
-Tabela verdade: 
+### I) Expressão Lógica Simplificada: B'C' + A'B'C  
+### II) Tabela verdade: 
 
 | A | B | C | D | x |
 |:-:|:-:|:-:|:-:|:-:|
@@ -162,8 +161,8 @@ A questão nos dá a seguinte tabela da verdade:
 | 1 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 0 |
 
-Expressão simplificada: 'A⋅B'+B'⋅D'+A⋅C⋅D'  
-Diagrama de circuito correspondente:  
+### I) Expressão simplificada: 'A⋅B'+B'⋅D'+A⋅C⋅D'  
+### II) Diagrama de circuito correspondente:  
 ![alt text](image.png)
 
 # Problema 04
