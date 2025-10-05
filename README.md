@@ -197,3 +197,11 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 | **01 (F'U)**    | 0         | **1** | **1** | 0        |
 | **11 (FU)**     | 0         | **1** | **1** | **1** |
 | **10 (FU')**    | 0         | 0        | **1** | **1** |
+
+### Expressão Lógica Simplificada
+
+$$S = \mathbf{TH + FU}$$
+
+## Implementação e Simulação no Logisim
+
+![alt text](Image-Q4.png)
