@@ -218,7 +218,7 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 <table>
   <tr>
-    <th>F(U, T, H)</th>
+    <th>F,U/ T, H)</th>
     <th>00</th>
     <th>01</th>
     <th>11</th>
@@ -226,31 +226,31 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
   </tr>
   <tr>
     <th>00</th>
-    <td style="color:gray;">0</td>
-    <td style="color:gray;">0</td>
-    <td style="color:gray;">0</td>
-    <td style="color:gray;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
   </tr>
   <tr>
     <th>01</th>
-    <td style="color:gray;">0</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
-    <td style="color:gray;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <td style="background-color:#e0e0e0;">0</td>
   </tr>
   <tr>
     <th>11</th>
-    <td style="color:gray;">0</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
   </tr>
   <tr>
     <th>10</th>
-    <td style="color:gray;">0</td>
-    <td style="color:gray;">0</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
-    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#e0e0e0;">0</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <td style="background-color:#90ee90; font-weight:bold;">1</td>
   </tr>
 </table>
 
