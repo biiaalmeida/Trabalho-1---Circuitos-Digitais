@@ -226,7 +226,8 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 
 ### IV. Expressão Lógica Simplificada e implementação do circuito lógico
-### S = TH + FU
+#### a) Expressão Lógica Simplificada: 
+$$S = TH + FU$$
  
 ![alt text](Image-Q4.png)
 
