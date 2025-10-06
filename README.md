@@ -214,6 +214,8 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 ### III. Simplificação da Expressão (Mapa de Karnaugh)
 
+#### S = TH + FU
+
 | (F,U/ T, H) | 00 | 01 | 11 | 10 |
 |:-----------:|:--:|:--:|:--:|:--:|
 | **00** | 0 | 0 | 0 | 0 |
@@ -221,12 +223,7 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 | **11** | 0 | **1** | **1** | **1** |
 | **10** | 0 | 0 | **1** | **1** |
 
-### IV. Expressão Lógica Simplificada e implementação do circuito lógico
-
-#### a) Expressão Lógica Simplificada: 
-$$S = TH + FU$$
-
-#### b) Diagrama de circuito lógico
+### IV. Diagrama de circuito correspondente.
  
 ![alt text](Image-Q4.png)
 
@@ -257,7 +254,7 @@ $$Y = |2B − 3|$$
 #### b) Y1 = B2' B1' B0' + B1 B0 + B2 B0
 | (B2/ B1, B0) | 00 | 01 | 11 | 10 |
 |:-----------:|:--:|:--:|:--:|:--:|
-| **0** | 0 | 0 | **1** | 0 |
+| **0** | **1** | 0 | **1** | 0 |
 | **1** | 0 | **1** | **1** | 0 |
 
 #### c) Y2 = B2 B1'
@@ -267,19 +264,12 @@ $$Y = |2B − 3|$$
 | **1** | **1** | **1** | 0 | 0 |
 
 #### d) Y3 = B2 B1
+| (B2/ B1, B0) | 00 | 01 | 11 | 10 |
 |:-----------:|:--:|:--:|:--:|:--:|
 | **0** | 0 | 0 | 0 | 0 |
 | **1** | 0 | 0 | **1** | **1** |
 
-### III. Expressões lógicas simplificadas para as saídas e o diagrama de circuito correspondente.
-
-#### a) Expressões Lógicas Simplificadas: 
-$$Y0 = 1$$
-$$Y1 = B2'B1'B0 + B1B0 + B2B0$$
-$$Y2 = B2B1'$$
-$$Y3 = B2B1$$
-
-#### b) Diagrama de circuito lógico
+### III. Diagrama de circuito correspondente.
 
 ![alt text](Image-Q5.png)
 
