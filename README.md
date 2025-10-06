@@ -228,6 +228,8 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 ### IV. Expressão Lógica Simplificada e implementação do circuito lógico
 #### a) Expressão Lógica Simplificada: 
 $$S = TH + FU$$
+
+#### b) Diagrama de circuito lógico
  
 ![alt text](Image-Q4.png)
 
@@ -236,7 +238,7 @@ Um circuito lógico combinacional calcula, a partir de uma entrada de 3 bits B (
 designados por B2, B1 e B0), a seguinte operação matemática:
 $$Y = |2B − 3|$$
 
-### Tabela verdade
+### I. Tabela verdade
 | B2 | B1 | B0 | Y0 | Y1 | Y2 | Y3 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 | 1 | 0 | 0 |
@@ -247,11 +249,15 @@ $$Y = |2B − 3|$$
 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
 | 1 | 1 | 0 | 1 | 0 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 1 | 0 | 1 |
-### Expressões lógicas simplificadas para as saídas e o diagrama de circuito correspondente.
+### II. Expressões lógicas simplificadas para as saídas e o diagrama de circuito correspondente.
+
+#### a) Expressões Lógicas Simplificadas: 
 $$Y0 = 1$$
 $$Y1 = B2'B1'B0 + B1B0 + B2B0$$
 $$Y2 = B2B1'$$
 $$Y3 = B2B1$$
+
+#### b) Diagrama de circuito lógico
 
 ![alt text](Image-Q5.png)
 
