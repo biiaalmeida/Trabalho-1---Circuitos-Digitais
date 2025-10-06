@@ -231,4 +231,27 @@ $$S = \mathbf{TH + FU}$$
  
 ![alt text](Image-Q4.png)
 
+# Problema 05
+Um circuito lógico combinacional calcula, a partir de uma entrada de 3 bits B (cada um dos bits
+designados por B2, B1 e B0), a seguinte operação matemática:
+$$Y = |2B − 3|$$
+
+### Tabela verdade
+| B2 | B1 | B0 | Y0 | Y1 | Y2 | Y3 |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 | 1 | 0 | 0 |
+| 0 | 0 | 1 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 0 | 1 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 1 | 0 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 0 | 1 |
+### Expressões lógicas simplificadas para as saídas e o diagrama de circuito correspondente.
+$$Y0 = 1$$
+$$Y1 = B2'B1'B0 + B1B0 + B2B0$$
+$$Y2 = B2B1'$$
+$$Y3 = B2B1$$
+![alt text](Image-Q5.png)
+
 
