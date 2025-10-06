@@ -216,8 +216,43 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 ### III. Simplificação da Expressão (Mapa de Karnaugh)
 
-<table> <tr> <th>F(U, T, H)</th> <th>00</th> <th>01</th> <th>11</th> <th>10</th> </tr> <tr> <th>00</th> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:gray;">0</td> </tr> <tr> <th>01</th> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:gray;">0</td> </tr> <tr> <th>11</th> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> </tr> <tr> <th>10</th> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> </tr> </table>
-
+<table>
+  <tr>
+    <th>F(U, T, H)</th>
+    <th>00</th>
+    <th>01</th>
+    <th>11</th>
+    <th>10</th>
+  </tr>
+  <tr>
+    <th>00</th>
+    <td style="color:gray;">0</td>
+    <td style="color:gray;">0</td>
+    <td style="color:gray;">0</td>
+    <td style="color:gray;">0</td>
+  </tr>
+  <tr>
+    <th>01</th>
+    <td style="color:gray;">0</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="color:gray;">0</td>
+  </tr>
+  <tr>
+    <th>11</th>
+    <td style="color:gray;">0</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+  </tr>
+  <tr>
+    <th>10</th>
+    <td style="color:gray;">0</td>
+    <td style="color:gray;">0</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+    <td style="color:limegreen; font-weight:bold;">1</td>
+  </tr>
+</table>
 
 
 ### IV. Expressão Lógica Simplificada e implementação do circuito lógico
