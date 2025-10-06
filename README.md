@@ -216,12 +216,7 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 ### III. Simplificação da Expressão (Mapa de Karnaugh)
 
-| F, U \ T, H | 00 (T'H') | 01 (T'H) | 11 (TH) | 10 (TH') |
-| :---------: | :-------: | :------: | :-----: | :------: |
-| **00 (F'U')**   | 0         | 0        | 0       | 0        |
-| **01 (F'U)**    | 0         | **1** | **1** | 0        |
-| **11 (FU)**     | 0         | **1** | **1** | **1** |
-| **10 (FU')**    | 0         | 0        | **1** | **1** |
+<table> <tr> <th>F(U, T, H)</th> <th>00</th> <th>01</th> <th>11</th> <th>10</th> </tr> <tr> <th>00</th> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:gray;">0</td> </tr> <tr> <th>01</th> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:gray;">0</td> </tr> <tr> <th>11</th> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> </tr> <tr> <th>10</th> <td style="color:gray;">0</td> <td style="color:gray;">0</td> <td style="color:limegreen; font-weight:bold;">1</td> <td style="color:limegreen; font-weight:bold;">1</td> </tr> </table>
 
 
 
