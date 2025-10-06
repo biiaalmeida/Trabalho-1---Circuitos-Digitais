@@ -252,6 +252,8 @@ $$Y0 = 1$$
 $$Y1 = B2'B1'B0 + B1B0 + B2B0$$
 $$Y2 = B2B1'$$
 $$Y3 = B2B1$$
+
 ![alt text](Image-Q5.png)
+
 
 
