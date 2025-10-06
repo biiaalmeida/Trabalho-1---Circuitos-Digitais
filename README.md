@@ -216,41 +216,43 @@ A expressão que modela as quatro premissas é: $$S = (T \cdot H) + (F \cdot U) 
 
 ### III. Simplificação da Expressão (Mapa de Karnaugh)
 
-<table>
+### III. Simplificação da Expressão (Mapa de Karnaugh)
+
+<table style="border-collapse: collapse; text-align:center;">
   <tr>
-    <th>F,U/ T, H)</th>
-    <th>00</th>
-    <th>01</th>
-    <th>11</th>
-    <th>10</th>
+    <th style="border:1px solid black;">F, U / T, H</th>
+    <th style="border:1px solid black;">00</th>
+    <th style="border:1px solid black;">01</th>
+    <th style="border:1px solid black;">11</th>
+    <th style="border:1px solid black;">10</th>
   </tr>
   <tr>
-    <th>00</th>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#e0e0e0;">0</td>
+    <th style="border:1px solid black;">00</th>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; color:blue;">0</td>
   </tr>
   <tr>
-    <th>01</th>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
-    <td style="background-color:#e0e0e0;">0</td>
+    <th style="border:1px solid black;">01</th>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; background-color:#d88; color:blue; font-weight:bold;">1</td>
+    <td style="border:1px solid black; background-color:#d88; color:blue; font-weight:bold;">1</td>
+    <td style="border:1px solid black; background-color:black; color:white;">0</td>
   </tr>
   <tr>
-    <th>11</th>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <th style="border:1px solid black;">11</th>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; background-color:#d88; color:blue; font-weight:bold;">1</td>
+    <td style="border:1px solid black; background-color:#f99; color:blue; font-weight:bold;">1</td>
+    <td style="border:1px solid black; background-color:#f99; color:blue; font-weight:bold;">1</td>
   </tr>
   <tr>
-    <th>10</th>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#e0e0e0;">0</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
-    <td style="background-color:#90ee90; font-weight:bold;">1</td>
+    <th style="border:1px solid black;">10</th>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; color:blue;">0</td>
+    <td style="border:1px solid black; background-color:#f99; color:blue; font-weight:bold;">1</td>
+    <td style="border:1px solid black; background-color:#f99; color:blue; font-weight:bold;">1</td>
   </tr>
 </table>
 
