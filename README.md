@@ -115,7 +115,7 @@ Implemente os seguintes circuitos em Logisim, obtendo, como resposta, a express�
 ![alt text](image-1.png)
 
 
-### I) Expressão Lógica Simplificada: B'C' + A'B'C  
+### I) Expressão Lógica Simplificada: B'C' + A'B'D  
 ### II) Tabela verdade: 
 
 | A | B | C | D | x |
