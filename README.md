@@ -161,7 +161,7 @@ A questão nos dá a seguinte tabela da verdade:
 | 1 | 1 | 1 | 0 | 1 |
 | 1 | 1 | 1 | 1 | 0 |
 
-### I) Expressão simplificada: 'A⋅B'+B'⋅D'+A⋅C⋅D'  
+### I) Expressão simplificada: A'B'+B'D'+ACD'  
 ### II) Diagrama de circuito correspondente:  
 ![alt text](image.png)
 
