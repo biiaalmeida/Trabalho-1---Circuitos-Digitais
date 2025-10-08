@@ -3,7 +3,7 @@ Projeto direcionado à disciplina de Circuitos Digitais, ministrada pelo Prof Dr
 
 # Autores 
 - Ana Beatriz Almeida da Silva | [Ana Beatriz Almeida](https://github.com/biiaalmeida) 
-- Nome de Thiago | [Thiago Emanoel Evaristo Barroso Dantas](https://github.com/evaristoT)
+- Thiago Emanoel Evaristo Barroso Dantas | [Thiago Evaristo](https://github.com/evaristoT)
 
 # Sumário
 
@@ -163,7 +163,7 @@ A questão nos dá a seguinte tabela da verdade:
 
 ### I) Expressão simplificada: A'B'+B'D'+ACD'  
 ### II) Diagrama de circuito correspondente:  
-![alt text](image.png)
+![alt text](imagem-Q3.png)
 
 # Problema 04
 
