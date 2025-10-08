@@ -233,7 +233,7 @@ designados por B2, B1 e B0), a seguinte operação matemática:
 $$Y = |2B − 3|$$
 
 ### I. Tabela verdade
-| B2 | B1 | B0 | Y0 | Y1 | Y2 | Y3 |
+| B2 | B1 | B0 | Y3 | Y2 | Y1 | Y0 |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 0 | 0 | 1 | 1 |
 | 0 | 0 | 1 | 0 | 0 | 0 | 1 |
