@@ -163,7 +163,7 @@ A questão nos dá a seguinte tabela da verdade:
 
 ### I) Expressão simplificada: A'B'+B'D'+ACD'  
 ### II) Diagrama de circuito correspondente:  
-![alt text](imagem-Q3.png)
+![alt text](ImageQ3.png)
 
 # Problema 04
 
